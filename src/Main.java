@@ -20,9 +20,9 @@ public class Main {
         */
 
         //Utilizando o metodo clone do objeto p1 para criar uma nova copia dentro do objeto p1clone
-        PrototypeConcreto1 p1Clone = (PrototypeConcreto1) p1.clone();
+        PrototypeConcreto1 p1Clone = p1.clone();
         //criando um clone o objeto p2
-        PrototypeConcreto2 p2Clone = (PrototypeConcreto2) p2.clone();
+        PrototypeConcreto2 p2Clone = p2.clone();
 
         /* No caso de cima, eu criei dois objetos da classe
         PrototypeConcreta1  da Classe PrototypeConcreta2
