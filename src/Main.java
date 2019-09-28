@@ -13,12 +13,15 @@ public class Main {
         /* agora que a coisa fica interessante
         imagina que tu queira criar um novo objeto do tipo PrototypeConcreto1
         so que esse novo objeto terá os mesmos atributos do primeiro objeto
-        ao inves de instaciar de novo o objeto
-        apenas se copia um objeto existente, criando um novo objeto com os atributos já settados
-        pra isso tu usa o metodo clone() das duas classes concretas
+        ao inves de instaciar de novo o objeto, tu vai
+        apenas criar uma copia de um objeto existente (no caso, Luan, o objeto p1)
+        Nesse caso, tu cria um novo objeto com os atributos já settados
+        pra isso tu vai usar o metodo clone() das duas classes concretas
         */
 
+        //Utilizando o metodo clone do objeto p1 para criar uma nova copia dentro do objeto p1clone
         PrototypeConcreto1 p1Clone = (PrototypeConcreto1) p1.clone();
+        //criando um clone o objeto p2
         PrototypeConcreto2 p2Clone = (PrototypeConcreto2) p2.clone();
 
         /* No caso de cima, eu criei dois objetos da classe
